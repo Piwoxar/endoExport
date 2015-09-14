@@ -28,7 +28,7 @@ The workout details are also stored as a xml file
 To download all workout details you can select the whole column 'WorkoutId' at sheet 'Workouts' and choose 'Endomondo -> 
 Endomondo -> Read Workout Details'
 
-You will find the xml files in the folder where you Excel file is located under Workouts\user_<your endomondo user id>.
+You will find the xml files in the folder where you Excel file is located under Workouts\user_&lt;your endomondo user id&gt;.
 
 If you run the export some times later again only the new workouts will be exported.
 
