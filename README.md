@@ -8,7 +8,24 @@ You need to allow the execution of macros at least for this Excel file.
 
 At the Endomondo web site you need to mark 'Try our cool new workout page' in Endomondo->Settings
 
-# Steps
+# Setup
+Download VbaDeveloper from github.
+...
+Download the Custom UI Editor. It is a free tool created by Trang Luu of the Microsoft Office User Experience team and is available at http://openxmldeveloper.org/archive/2009/08/06/7293.aspx.
+
+Start the editor and open the file EndomondoWorkouts.xlsm.
+
+Copy the content of the file ribbon.xml into the editor.
+Choose 'Insert -> Icons...' in the menu and add the following icons:
+- database-icon
+- Delete-32
+- Import-Document-icon
+- sports_mode-32
+- settings-32
+
+Save the changes.
+
+# Steps to download endomondo workouts
 Open the Excel file EndomondoWorkouts.xlsm.
 
 In the menu choose 'Endomondo -> Endomondo -> Read Workouts'
