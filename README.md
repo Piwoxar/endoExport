@@ -9,8 +9,10 @@ You need to allow the execution of macros at least for this Excel file.
 At the Endomondo web site you need to mark 'Try our cool new workout page' in Endomondo->Settings
 
 # Setup
-Download VbaDeveloper from github.
+Download VbaDeveloper from github. https://github.com/hilkoc/vbaDeveloper
+
 ...
+
 Download the Custom UI Editor. It is a free tool created by Trang Luu of the Microsoft Office User Experience team and is available at http://openxmldeveloper.org/archive/2009/08/06/7293.aspx.
 
 Start the editor and open the file EndomondoWorkouts.xlsm.
