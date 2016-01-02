@@ -9,7 +9,7 @@ You need to allow the execution of macros at least for this Excel file.
 At the Endomondo web site you need to mark 'Try our cool new workout page' in Endomondo->Settings
 
 # Setup
-Copy then files EndomondoWorkouts.xlsm and gzip.dll into your work directory.
+Copy the files EndomondoWorkouts.xlsm and gzip.dll into your work directory.
 
 # Steps to download endomondo workouts
 Open the Excel file EndomondoWorkouts.xlsm.
