@@ -9,30 +9,14 @@ You need to allow the execution of macros at least for this Excel file.
 At the Endomondo web site you need to mark 'Try our cool new workout page' in Endomondo->Settings
 
 # Setup
-Download VbaDeveloper from github. https://github.com/hilkoc/vbaDeveloper
-
-...
-
-Download the Custom UI Editor. It is a free tool created by Trang Luu of the Microsoft Office User Experience team and is available at http://openxmldeveloper.org/archive/2009/08/06/7293.aspx.
-
-Start the editor and open the file EndomondoWorkouts.xlsm.
-
-Copy the content of the file ribbon.xml into the editor.
-Choose 'Insert -> Icons...' in the menu and add the following icons:
-- database-icon
-- Delete-32
-- Import-Document-icon
-- sports_mode-32
-- settings-32
-
-Save the changes.
+Copy the files EndomondoWorkouts.xlsm and gzip.dll into your work directory.
 
 # Steps to download endomondo workouts
 Open the Excel file EndomondoWorkouts.xlsm.
 
-In the menu choose 'Endomondo -> Endomondo -> Read Workouts'
+Choose ribbon 'Endomondo -> Endomondo -> Read Workouts'
 
-At the popup enter your endomondo user and password.
+At the popup enter your endomondo user (email) and password.
 
 Now all your workouts will be loaded and saved as a xml file.
 
@@ -40,7 +24,7 @@ The Excel sheet 'Workouts' shows your workouts
 
 To get the details you can select a line and choose 'Endomondo -> Endomondo -> Read Workout Details'
 
-The details will be displayed in the sheet 'Workout'.
+The details will be displayed in the sheet 'Workout' and a new browser window opens to show a google map with your route.
 
 The workout details are also stored as a xml file
 
@@ -55,3 +39,5 @@ You can also show the content of the xml file. Choose 'Endomondo -> Xml -> Read 
 
 # Disclaimer
 These macros worked for me. Endomondo can easily change something on their website so these macros are not work anymore, so I offer no guarantee that it will work for you, too. You use this macros at your own risk. 
+
+All icons in the ribbon and the sheets are from: https://icons8.com
